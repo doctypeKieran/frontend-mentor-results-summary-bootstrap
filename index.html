@@ -20,22 +20,27 @@
 
 <body>
   <!-- Component container -->
-  <div class="container-fluid">
-    <div class="row">
-      <!-- Top on mobile, left on desktop -->
-      <div class="col-12 col-md-6 component-score">
-        TEST
-      </div>
-      <!-- Bottom on mobile, right on dekstop -->
-      <div class="col-12 col-md-6">
-        <h3>Summary</h3>
-        <div class="component-summary">
-          YES
+  <main>
+    <article class="container-fluid">
+      <div class="row">
+        <!-- Top on mobile, left on desktop -->
+        <section class="col-12 col-md-6 component-score text-white bg-main-gradient">
+          <h2 class="result-heading">Your Result</h2>
+          <div class="circle bg-circle-gradient">
+            <p class="score-result">76</p>
+            <p class="score-total">of 100</p>
+          </div>
+        </section>
+        <!-- Bottom on mobile, right on dekstop -->
+        <div class="col-12 col-md-6">
+          <h3>Summary</h3>
+          <section class="component-summary">
+            YES
+          </section>
         </div>
       </div>
-    </div>
-  </div>
-
+    </article>
+  </main>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.

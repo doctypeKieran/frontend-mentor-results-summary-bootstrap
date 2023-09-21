@@ -1,7 +1,7 @@
 /* Google Font imports */
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700;800&display=swap');
 
-/* Universal font family & size*/
+/* Universal font family & size */
 * {
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 18px;
@@ -60,13 +60,42 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
+/* Component Score  */
 .component-score {
     min-height: 40vh;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
 }
+
+.component-score h2,
+.component-score p {
+    margin: 0;
+}
+
+.result-heading {
+    font-size: inherit;
+}
+
+/* Component Summary */
 
 .component-summary {
     min-height: 60vh;
 }
 
+.circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle .score-result {
+    font-size: 40px;
+    font-weight: 800;
+}
