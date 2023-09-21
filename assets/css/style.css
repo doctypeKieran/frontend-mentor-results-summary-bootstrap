@@ -169,6 +169,10 @@ button.bg-button {
     border-radius: 24px;
 }
 
+button.bg-button:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
 @media screen and (min-width: 768px) {
     main {
         display: grid;
