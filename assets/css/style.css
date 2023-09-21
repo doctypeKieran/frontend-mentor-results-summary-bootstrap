@@ -59,8 +59,7 @@
 }
 
 /* Component styles */
-.component-score,
-.component-summary {
+.component-score {
     display: flex;
     flex-direction: column;
     align-items: center;
