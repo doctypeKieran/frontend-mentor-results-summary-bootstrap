@@ -4,12 +4,16 @@
 /* Universal font family & size */
 * {
     font-family: 'Hanken Grotesk', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* Text colors */
 .text-white {
     color: hsl(0, 0%, 100%);
+}
+
+.text-transparent-gray {
+    color: hsla(0, 0%, 89%, 0.5);
 }
 
 .text-pale-blue {
@@ -63,11 +67,12 @@
     justify-content: space-between;
 }
 
-/* Component Score  */
+/* Component Score (top on mobile, left on desktop) */
 .component-score {
-    min-height: 40vh;
+    min-height: 45vh;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
+    padding: 20px 24px;
 }
 
 .component-score h2,
@@ -79,15 +84,21 @@
     font-size: inherit;
 }
 
-/* Component Summary */
-
-.component-summary {
-    min-height: 60vh;
+.component-score h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
+.component-score p.text-transparent-gray {
+    line-height: 1.2;
+}
+
+.component-score
+
+/* Component Score - Circle */
 .circle {
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     display: flex;
     flex-direction: column;
@@ -96,6 +107,16 @@
 }
 
 .circle .score-result {
-    font-size: 40px;
+    font-size: 3rem;
     font-weight: 800;
+}
+
+.circle .score-total {
+    font-size: 0.85rem;
+}
+
+/* Component Summary (bottom on mobile, right on desktop) */
+
+.component-summary {
+    min-height: 55vh;
 }
