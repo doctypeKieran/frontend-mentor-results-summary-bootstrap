@@ -144,6 +144,18 @@ main {
     gap: 1rem;
 }
 
+/* Skill score */
+
+.skill-score p,
+.skill-score span {
+    font-weight: 700;
+}
+
+.skill-score span {
+    color: rgb(175, 175, 175);
+}
+/* Button */
+
 button.bg-button {
     font-family: inherit;
     font-weight: 700;
