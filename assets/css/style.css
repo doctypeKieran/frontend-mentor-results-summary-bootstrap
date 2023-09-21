@@ -175,8 +175,20 @@ button.bg-button {
         place-items: center;
     }
 
+    article.container-fluid,
+    article.container-fluid section {
+        min-height: 400px;
+        max-height: 400px;
+    }
+
+    .component-score,
+    .component-summary {
+        height: auto;
+    }
+
     .component-score {
         border-top-left-radius: 16px;
         border-top-right-radius: 16px;
+        padding: 34px;
     }
 }
